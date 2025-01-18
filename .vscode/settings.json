@@ -1,0 +1,8 @@
+{
+    "javascript.preferGoToSourceDefinition": true,
+    "typescript.preferGoToSourceDefinition": true,
+    "editor.gotoLocation.multipleDeclarations": "gotoAndPeek",
+    "editor.multiCursorModifier": "alt",
+    "editor.gotoLocation.multipleDefinitions": "gotoAndPeek",
+    "editor.gotoLocation.multipleTypeDefinitions": "gotoAndPeek"
+}
