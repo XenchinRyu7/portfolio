@@ -14,7 +14,7 @@ const ProjectRelatedProjects = ({ relatedProject }) => {
           return (
             <img
               src={project.img}
-              className="rounded-xl cursor-pointer"
+              className="rounded-xl cursor-pointer w-full h-96 object-cover"
               alt={project.title}
               key={project.id}
             />

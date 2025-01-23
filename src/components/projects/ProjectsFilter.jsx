@@ -1,6 +1,7 @@
 const selectOptions = [
 	'Web Application',
 	'Mobile Application',
+	'Desktop Application'
 ];
 
 const ProjectsFilter = ({ setSelectProject }) => {

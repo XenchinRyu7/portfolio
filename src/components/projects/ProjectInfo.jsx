@@ -19,7 +19,7 @@ const ProjectInfo = ({ projectInfo }) => {
                 >
                   <span>{info.title}: </span>
                   <a
-                    href="https://stoman.me"
+                    href={info.details}
                     className={
                       info.title === "Website" || info.title === "Phone"
                         ? "hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300"

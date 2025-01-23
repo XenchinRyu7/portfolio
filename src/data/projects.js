@@ -1,37 +1,36 @@
-// Import images
-import FastFoodExpress1 from "../images/projects/FastFoodExpress.png";
-import GrowYourGames1 from "../images/projects/GrowYourGames.png";
-import FkomLibrary3 from "../images/projects/Fkomlibrary.png";
-import ImagesScanner from "../images/projects/ImagesScanner.png";
-import OpenMap from "../images/projects/OpenMap.png";
-import DocumentConverter from "../images/projects/DocumentConverter.png";
+import FastFoodExpress1 from "../images/projects/FastFoodExpress/FastFoodExpress.png";
+import GrowYourGames from "../images/projects/GrowYourGames/GrowYourGames.png";
+import FkomLibrary3 from "../images/projects/FkomLibrary/Fkomlibrary.png";
+import OpenMap from "../images/projects/OpenMap/OpenMap.png";
 import Traveloop from "../images/projects/traveloop/traveloop.png";
 import CluckNRoll from "../images/projects/clucknroll/clucknroll.png";
+import RuangTenun from "../images/projects/RuangTenun/ruangtenun.png";
+import SkillBridge from "../images/projects/SkillBridge/skillbridge.png";
 
 export const projectsData = [
   {
     id: 1,
-    title: "GloryAI",
-    category: "Web Application",
-    img: GrowYourGames1,
+    title: "Ruang Tenun",
+    category: "Mobile Application",
+    img: RuangTenun,
   },
   {
     id: 2,
+    title: "SkillBridge",
+    category: "Web Application",
+    img: SkillBridge,
+  },
+  {
+    id: 3,
     title: "Traveloop",
     category: "Web Application",
     img: Traveloop,
   },
   {
-    id: 3,
+    id: 4,
     title: "CluckNRoll",
     category: "Web Design",
     img: CluckNRoll,
-  },
-  {
-    id: 4,
-    title: "Images Scanner AI",
-    category: "Mobile Application",
-    img: ImagesScanner,
   },
   {
     id: 5,
@@ -53,8 +52,8 @@ export const projectsData = [
   },
   {
     id: 8,
-    title: "Document Converter",
-    category: "Mobile Application",
-    img: DocumentConverter,
+    title: "GrowYourGames",
+    category: "Web Application",
+    img: GrowYourGames,
   },
 ];
