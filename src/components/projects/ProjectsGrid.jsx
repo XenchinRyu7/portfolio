@@ -38,6 +38,8 @@ const ProjectsGrid = () => {
         <div
           className="
                         flex
+                        flex-col
+                        md:flex-row
                         justify-between
                         border-b border-primary-light
                         dark:border-secondary-dark
@@ -45,7 +47,7 @@ const ProjectsGrid = () => {
                         gap-3
                         "
         >
-          <div className="flex justify-between gap-2">
+          <div className="flex gap-2">
             <span
               className="
                                 hidden
@@ -75,6 +77,7 @@ const ProjectsGrid = () => {
                                 rounded-lg
                                 text-sm
                                 sm:text-md
+                                w-full
                                 bg-secondary-light
                                 dark:bg-ternary-dark
                                 text-primary-dark
