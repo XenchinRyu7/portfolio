@@ -6,6 +6,11 @@ import Traveloop from "../images/projects/traveloop/traveloop.png";
 import CluckNRoll from "../images/projects/clucknroll/clucknroll.png";
 import RuangTenun from "../images/projects/RuangTenun/ruangtenun.png";
 import SkillBridge from "../images/projects/SkillBridge/skillbridge.png";
+import BallVerse from "../images/projects/BallVerse/ballverse.jpg";
+import MubeeGo from "../images/projects/MubeeGo/mubeego.jpg";
+import TodoApp from "../images/projects/TodoApp/todoapp.jpg";
+import HabitTracker from "../images/projects/HabitTracker/habittracker.jpg";
+import CourseScheduler from "../images/projects/CourseScheduler/coursescheduler.jpg";
 
 export const projectsData = [
   {
@@ -55,5 +60,35 @@ export const projectsData = [
     title: "GrowYourGames",
     category: "Web Application",
     img: GrowYourGames,
+  },
+  {
+    id: 9,
+    title: "MubeeGo",
+    category: "Mobile Application",
+    img: MubeeGo,
+  },
+  {
+    id: 10,
+    title: "Todo App",
+    category: "Mobile Application",
+    img: TodoApp,
+  },
+  {
+    id: 11,
+    title: "Habit Tracker",
+    category: "Mobile Application",
+    img: HabitTracker,
+  },
+  {
+    id: 12,
+    title: "Course Scheduler",
+    category: "Mobile Application",
+    img: CourseScheduler,
+  },
+  {
+    id: 13,
+    title: "BallVerse",
+    category: "Mobile Application",
+    img: BallVerse,
   },
 ];

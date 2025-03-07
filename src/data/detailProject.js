@@ -28,6 +28,31 @@ import SkillBridge from "../images/projects/SkillBridge/skillbridge.png";
 import SkillBridge1 from "../images/projects/SkillBridge/skillbridge1.png";
 import SkillBridge2 from "../images/projects/SkillBridge/skillbridge2.png";
 
+import BallVerse from "../images/projects/BallVerse/ballverse.jpg";
+import BallVerse1 from "../images/projects/BallVerse/ballverse1.jpg";
+import BallVerse2 from "../images/projects/BallVerse/ballverse2.jpg";
+import BallVerse3 from "../images/projects/BallVerse/ballverse3.jpg";
+import BallVerse4 from "../images/projects/BallVerse/ballverse4.jpg";
+
+import MubeeGo from "../images/projects/MubeeGo/mubeego.jpg";
+import MubeeGo1 from "../images/projects/MubeeGo/mubeego1.jpg";
+import MubeeGo2 from "../images/projects/MubeeGo/mubeego2.jpg";
+import MubeeGo3 from "../images/projects/MubeeGo/mubeego3.jpg";
+
+import TodoApp from "../images/projects/TodoApp/todoapp.jpg";
+import TodoApp1 from "../images/projects/TodoApp/todoapp1.jpg";
+import TodoApp2 from "../images/projects/TodoApp/todoapp2.jpg";
+
+import HabitTracker from "../images/projects/HabitTracker/habittracker.jpg";
+import HabitTracker1 from "../images/projects/HabitTracker/habittracker1.jpg";
+import HabitTracker2 from "../images/projects/HabitTracker/habittracker2.jpg";
+import HabitTracker3 from "../images/projects/HabitTracker/habittracker3.jpg";
+
+import CourseScheduler from "../images/projects/CourseScheduler/coursescheduler.jpg";
+import CourseScheduler1 from "../images/projects/CourseScheduler/coursescheduler1.jpg";
+import CourseScheduler2 from "../images/projects/CourseScheduler/coursescheduler2.jpg";
+import CourseScheduler3 from "../images/projects/CourseScheduler/coursescheduler3.jpg";
+
 import {
   FiFacebook,
   FiInstagram,
@@ -1029,6 +1054,869 @@ export const detailProject = [
         {
           title: "Tools & Technologies",
           techs: ["CodeIgniter 4", "Bootstrap"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenges",
+      ProjectDetails: [
+        {
+          id: 1,
+          details:
+            "Implementing a secure and reliable order management system to handle game-boosting requests, ensuring data privacy and accurate order tracking.",
+        },
+        {
+          id: 2,
+          details:
+            "Designing a modern and visually appealing user interface using Bootstrap that aligns with the gaming industry aesthetic while maintaining usability.",
+        },
+        {
+          id: 3,
+          details:
+            "Building a robust backend with CodeIgniter 4 to manage database operations and ensure seamless data flow.",
+        },
+        {
+          id: 4,
+          details:
+            "Optimizing website performance to handle high traffic and ensure smooth functionality across different devices and browsers.",
+        },
+      ],
+      SocialSharingHeading: "Share This",
+      SocialSharing: [
+        {
+          id: 1,
+          name: "Twitter",
+          icon: <FiTwitter />,
+          url: "https://twitter.com",
+        },
+        {
+          id: 2,
+          name: "Instagram",
+          icon: <FiInstagram />,
+          url: "https://instagram.com",
+        },
+        {
+          id: 3,
+          name: "Facebook",
+          icon: <FiFacebook />,
+          url: "https://facebook.com/",
+        },
+        {
+          id: 4,
+          name: "LinkedIn",
+          icon: <FiLinkedin />,
+          url: "https://linkedin.com/",
+        },
+        {
+          id: 5,
+          name: "Youtube",
+          icon: <FiYoutube />,
+          url: "https://www.youtube.com",
+        },
+      ],
+    },
+    RelatedProject: {
+      title: "Related Projects",
+      Projects: [
+        {
+          id: 1,
+          title: "Mobile UI",
+          img: Traveloop,
+        },
+        {
+          id: 2,
+          title: "Web Application",
+          img: SkillBridge,
+        },
+        {
+          id: 3,
+          title: "UI Design",
+          img: CluckNRoll,
+        },
+        {
+          id: 4,
+          title: "Kabul Mobile App UI",
+          img: FkomLibrary,
+        },
+      ],
+    },
+  },
+  {
+    id: 8,
+    ProjectHeader: {
+      title: "GrowYourGames",
+      publishDate: "April 10, 2024",
+      tags: "frontend / backend",
+    },
+    ProjectImages: [
+      {
+        id: 1,
+        title: "Kabul Project Management UI",
+        img: GrowYourGames,
+      },
+      {
+        id: 2,
+        title: "Kabul Project Management UI",
+        img: GrowYourGames1,
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About the Client",
+      CompanyInfo: [
+        {
+          id: 1,
+          title: "Name",
+          details: "Project From Campus",
+        },
+        {
+          id: 2,
+          title: "Services",
+          details: "UI Design & Frontend Development",
+        },
+        {
+          id: 3,
+          title: "Website",
+          details: "https://github.com/XenchinRyu7/GrowYourGames",
+        },
+        {
+          id: 4,
+          title: "Phone",
+          details: "N/A",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails:
+        "To create a website that allows users to order game-boosting services (game joki) with an intuitive and user-friendly interface.",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: ["CodeIgniter 4", "Bootstrap"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenges",
+      ProjectDetails: [
+        {
+          id: 1,
+          details:
+            "Implementing a secure and reliable order management system to handle game-boosting requests, ensuring data privacy and accurate order tracking.",
+        },
+        {
+          id: 2,
+          details:
+            "Designing a modern and visually appealing user interface using Bootstrap that aligns with the gaming industry aesthetic while maintaining usability.",
+        },
+        {
+          id: 3,
+          details:
+            "Building a robust backend with CodeIgniter 4 to manage database operations and ensure seamless data flow.",
+        },
+        {
+          id: 4,
+          details:
+            "Optimizing website performance to handle high traffic and ensure smooth functionality across different devices and browsers.",
+        },
+      ],
+      SocialSharingHeading: "Share This",
+      SocialSharing: [
+        {
+          id: 1,
+          name: "Twitter",
+          icon: <FiTwitter />,
+          url: "https://twitter.com",
+        },
+        {
+          id: 2,
+          name: "Instagram",
+          icon: <FiInstagram />,
+          url: "https://instagram.com",
+        },
+        {
+          id: 3,
+          name: "Facebook",
+          icon: <FiFacebook />,
+          url: "https://facebook.com/",
+        },
+        {
+          id: 4,
+          name: "LinkedIn",
+          icon: <FiLinkedin />,
+          url: "https://linkedin.com/",
+        },
+        {
+          id: 5,
+          name: "Youtube",
+          icon: <FiYoutube />,
+          url: "https://www.youtube.com",
+        },
+      ],
+    },
+    RelatedProject: {
+      title: "Related Projects",
+      Projects: [
+        {
+          id: 1,
+          title: "Mobile UI",
+          img: Traveloop,
+        },
+        {
+          id: 2,
+          title: "Web Application",
+          img: SkillBridge,
+        },
+        {
+          id: 3,
+          title: "UI Design",
+          img: CluckNRoll,
+        },
+        {
+          id: 4,
+          title: "Kabul Mobile App UI",
+          img: FkomLibrary,
+        },
+      ],
+    },
+  },
+  {
+    id: 9,
+    ProjectHeader: {
+      title: "MubeeGo",
+      publishDate: "April 10, 2024",
+      tags: "Kotlin / Android",
+    },
+    ProjectImages: [
+      {
+        id: 1,
+        title: "MubeeGo Home",
+        img: MubeeGo,
+      },
+      {
+        id: 2,
+        title: "MubeeGo Sidebar",
+        img: MubeeGo1,
+      },
+      {
+        id: 3,
+        title: "MubeeGo Detail",
+        img: MubeeGo2,
+      },
+      {
+        id: 4,
+        title: "MubeeGO Favorite",
+        img: MubeeGo3,
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About the Client",
+      CompanyInfo: [
+        {
+          id: 1,
+          title: "Name",
+          details: "Project From Dicoding Android Developer Expert",
+        },
+        {
+          id: 2,
+          title: "Services",
+          details: "Clean Architecture Android Kotlin With MVVM",
+        },
+        {
+          id: 3,
+          title: "Website",
+          details: "https://github.com/XenchinRyu7/MubeeGo",
+        },
+        {
+          id: 4,
+          title: "Phone",
+          details: "N/A",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails:
+        "Create Capstone project for android developer expert from Dicoding with clean architecture and mvvm",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: ["Kotlin", "Material 3"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenges",
+      ProjectDetails: [
+        {
+          id: 1,
+          details:
+            "Implementing Continuous Integration. Continuous Deployment (CI/CD) with Github Circle CI",
+        },
+        {
+          id: 2,
+          details: "Have good performance, nothing issue with leak canary",
+        },
+        {
+          id: 3,
+          details:
+            "Implementing security, obfuscation, encryption in database, and certificate pinning for connection to API ",
+        },
+        {
+          id: 4,
+          details:
+            "Implementing Reactive Programming, Dependency Injection, and Unit Testing",
+        },
+        {
+          id: 5,
+          details:
+            "Implementing Clean Architecture, MVVM, and Repository Pattern",
+        },
+      ],
+      SocialSharingHeading: "Share This",
+      SocialSharing: [
+        {
+          id: 1,
+          name: "Twitter",
+          icon: <FiTwitter />,
+          url: "https://twitter.com",
+        },
+        {
+          id: 2,
+          name: "Instagram",
+          icon: <FiInstagram />,
+          url: "https://instagram.com",
+        },
+        {
+          id: 3,
+          name: "Facebook",
+          icon: <FiFacebook />,
+          url: "https://facebook.com/",
+        },
+        {
+          id: 4,
+          name: "LinkedIn",
+          icon: <FiLinkedin />,
+          url: "https://linkedin.com/",
+        },
+        {
+          id: 5,
+          name: "Youtube",
+          icon: <FiYoutube />,
+          url: "https://www.youtube.com",
+        },
+      ],
+    },
+    RelatedProject: {
+      title: "Related Projects",
+      Projects: [
+        {
+          id: 1,
+          title: "Mobile UI",
+          img: Traveloop,
+        },
+        {
+          id: 2,
+          title: "Web Application",
+          img: SkillBridge,
+        },
+        {
+          id: 3,
+          title: "UI Design",
+          img: CluckNRoll,
+        },
+        {
+          id: 4,
+          title: "Kabul Mobile App UI",
+          img: FkomLibrary,
+        },
+      ],
+    },
+  },
+  {
+    id: 10,
+    ProjectHeader: {
+      title: "Todo App",
+      publishDate: "April 10, 2024",
+      tags: "Kotlin / Android",
+    },
+    ProjectImages: [
+      {
+        id: 1,
+        title: "Todo App Home",
+        img: TodoApp,
+      },
+      {
+        id: 2,
+        title: "Todo App Add Task",
+        img: TodoApp1,
+      },
+      {
+        id: 3,
+        title: "Todo App Settings",
+        img: TodoApp2,
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About the Client",
+      CompanyInfo: [
+        {
+          id: 1,
+          title: "Name",
+          details: "Project From DCA Google",
+        },
+        {
+          id: 2,
+          title: "Services",
+          details: "Kotlin Android Development",
+        },
+        {
+          id: 3,
+          title: "Website",
+          details: "https://github.com/XenchinRyu7/TodoApp",
+        },
+        {
+          id: 4,
+          title: "Phone",
+          details: "N/A",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails:
+        "To Create Todo App with Kotlin Android Development with MVVM for eligible DCA requirements",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: ["Kotlin", "Material 3"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenges",
+      ProjectDetails: [
+        {
+          id: 1,
+          details:
+            "RecyclerView shows list properly with initial data from local JSON.",
+        },
+        {
+          id: 2,
+          details: "Filter menu working properly with the right query.",
+        },
+        {
+          id: 3,
+          details:
+            "Daily reminder notification shows the earliest active task when the notification setting is on.",
+        },
+        {
+          id: 4,
+          details: "UI testing can run successfully based on the scenario.",
+        },
+      ],
+      SocialSharingHeading: "Share This",
+      SocialSharing: [
+        {
+          id: 1,
+          name: "Twitter",
+          icon: <FiTwitter />,
+          url: "https://twitter.com",
+        },
+        {
+          id: 2,
+          name: "Instagram",
+          icon: <FiInstagram />,
+          url: "https://instagram.com",
+        },
+        {
+          id: 3,
+          name: "Facebook",
+          icon: <FiFacebook />,
+          url: "https://facebook.com/",
+        },
+        {
+          id: 4,
+          name: "LinkedIn",
+          icon: <FiLinkedin />,
+          url: "https://linkedin.com/",
+        },
+        {
+          id: 5,
+          name: "Youtube",
+          icon: <FiYoutube />,
+          url: "https://www.youtube.com",
+        },
+      ],
+    },
+    RelatedProject: {
+      title: "Related Projects",
+      Projects: [
+        {
+          id: 1,
+          title: "Mobile UI",
+          img: Traveloop,
+        },
+        {
+          id: 2,
+          title: "Web Application",
+          img: SkillBridge,
+        },
+        {
+          id: 3,
+          title: "UI Design",
+          img: CluckNRoll,
+        },
+        {
+          id: 4,
+          title: "Kabul Mobile App UI",
+          img: FkomLibrary,
+        },
+      ],
+    },
+  },
+  {
+    id: 11,
+    ProjectHeader: {
+      title: "Habit Tracker",
+      publishDate: "April 10, 2024",
+      tags: "Kotlin / Android",
+    },
+    ProjectImages: [
+      {
+        id: 1,
+        title: "Habit Tracker Home",
+        img: HabitTracker,
+      },
+      {
+        id: 2,
+        title: "Habit Tracker Random Habit",
+        img: HabitTracker1,
+      },
+      {
+        id: 3,
+        title: "Habit Tracker Add Habit",
+        img: HabitTracker2,
+      },
+      {
+        id: 2,
+        title: "Habit Tracker Settings",
+        img: HabitTracker3,
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About the Client",
+      CompanyInfo: [
+        {
+          id: 1,
+          title: "Name",
+          details: "Project From DCA Google",
+        },
+        {
+          id: 2,
+          title: "Services",
+          details: "Kotlin Android Development",
+        },
+        {
+          id: 3,
+          title: "Website",
+          details: "https://github.com/XenchinRyu7/Habit-Tracker",
+        },
+        {
+          id: 4,
+          title: "Phone",
+          details: "N/A",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails:
+        "To Create Habit Tracker App with Kotlin Android Development with MVVM for eligible DCA requirements",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: ["Kotlin", "Material 3"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenges",
+      ProjectDetails: [
+        {
+          id: 1,
+          details: "Sorting menu working properly with the right query.",
+        },
+        {
+          id: 2,
+          details:
+            "Dark Mode working properly when the ListPreference is changed",
+        },
+        {
+          id: 3,
+          details:
+            "The notification with pending intent appears when the time of count down is up.",
+        },
+        {
+          id: 4,
+          details: "Random habit shows properly using ViewPager2.",
+        },
+      ],
+      SocialSharingHeading: "Share This",
+      SocialSharing: [
+        {
+          id: 1,
+          name: "Twitter",
+          icon: <FiTwitter />,
+          url: "https://twitter.com",
+        },
+        {
+          id: 2,
+          name: "Instagram",
+          icon: <FiInstagram />,
+          url: "https://instagram.com",
+        },
+        {
+          id: 3,
+          name: "Facebook",
+          icon: <FiFacebook />,
+          url: "https://facebook.com/",
+        },
+        {
+          id: 4,
+          name: "LinkedIn",
+          icon: <FiLinkedin />,
+          url: "https://linkedin.com/",
+        },
+        {
+          id: 5,
+          name: "Youtube",
+          icon: <FiYoutube />,
+          url: "https://www.youtube.com",
+        },
+      ],
+    },
+    RelatedProject: {
+      title: "Related Projects",
+      Projects: [
+        {
+          id: 1,
+          title: "Mobile UI",
+          img: Traveloop,
+        },
+        {
+          id: 2,
+          title: "Web Application",
+          img: SkillBridge,
+        },
+        {
+          id: 3,
+          title: "UI Design",
+          img: CluckNRoll,
+        },
+        {
+          id: 4,
+          title: "Kabul Mobile App UI",
+          img: FkomLibrary,
+        },
+      ],
+    },
+  },
+  {
+    id: 12,
+    ProjectHeader: {
+      title: "Course Scheduler",
+      publishDate: "April 10, 2024",
+      tags: "Kotlin / Android",
+    },
+    ProjectImages: [
+      {
+        id: 1,
+        title: "Course Scheduler Home",
+        img: CourseScheduler,
+      },
+      {
+        id: 2,
+        title: "Course Scheduler Add course",
+        img: CourseScheduler1,
+      },
+      {
+        id: 3,
+        title: "Course Scheduler List Course",
+        img: CourseScheduler2,
+      },
+      {
+        id: 4,
+        title: "Course Scheduler Settings",
+        img: CourseScheduler3,
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About the Client",
+      CompanyInfo: [
+        {
+          id: 1,
+          title: "Name",
+          details: "Project From Campus",
+        },
+        {
+          id: 2,
+          title: "Services",
+          details: "UI Design & Frontend Development",
+        },
+        {
+          id: 3,
+          title: "Website",
+          details: "https://github.com/XenchinRyu7/CourseScheduler",
+        },
+        {
+          id: 4,
+          title: "Phone",
+          details: "N/A",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails:
+        "To Create Course Scheduler App with Kotlin Android Development with MVVM for eligible DCA requirements",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: ["Kotlin", "Material 3"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenges",
+      ProjectDetails: [
+        {
+          id: 1,
+          details: "CardHomeView shows the nearest schedule properly.",
+        },
+        {
+          id: 2,
+          details:
+            "Success to delete data, either from the detail page or by swiping the list.",
+        },
+        {
+          id: 3,
+          details:
+            "Daily reminder notification shows the today schedule in Inbox Style at 06.00 a.m.",
+        },
+        {
+          id: 4,
+          details: "Dark Mode working properly when ListPreference is changed.",
+        },
+      ],
+      SocialSharingHeading: "Share This",
+      SocialSharing: [
+        {
+          id: 1,
+          name: "Twitter",
+          icon: <FiTwitter />,
+          url: "https://twitter.com",
+        },
+        {
+          id: 2,
+          name: "Instagram",
+          icon: <FiInstagram />,
+          url: "https://instagram.com",
+        },
+        {
+          id: 3,
+          name: "Facebook",
+          icon: <FiFacebook />,
+          url: "https://facebook.com/",
+        },
+        {
+          id: 4,
+          name: "LinkedIn",
+          icon: <FiLinkedin />,
+          url: "https://linkedin.com/",
+        },
+        {
+          id: 5,
+          name: "Youtube",
+          icon: <FiYoutube />,
+          url: "https://www.youtube.com",
+        },
+      ],
+    },
+    RelatedProject: {
+      title: "Related Projects",
+      Projects: [
+        {
+          id: 1,
+          title: "Mobile UI",
+          img: Traveloop,
+        },
+        {
+          id: 2,
+          title: "Web Application",
+          img: SkillBridge,
+        },
+        {
+          id: 3,
+          title: "UI Design",
+          img: CluckNRoll,
+        },
+        {
+          id: 4,
+          title: "Kabul Mobile App UI",
+          img: FkomLibrary,
+        },
+      ],
+    },
+  },
+  {
+    id: 13,
+    ProjectHeader: {
+      title: "BallVerse",
+      publishDate: "February 23, 2025",
+      tags: "Jetpack Compose / Kotlin / Android",
+    },
+    ProjectImages: [
+      {
+        id: 1,
+        title: "BallVerse - Main UI",
+        img: BallVerse,
+      },
+      {
+        id: 2,
+        title: "BallVerse - Detail UI",
+        img: BallVerse2,
+      },
+      {
+        id: 3,
+        title: "BallVerse - Clubs UI",
+        img: BallVerse3,
+      },
+      {
+        id: 4,
+        title: "BallVerse - Profile UI",
+        img: BallVerse4,
+      },
+      {
+        id: 5,
+        title: "BallVerse - Profile UI",
+        img: BallVerse1,
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About the Client",
+      CompanyInfo: [
+        {
+          id: 1,
+          title: "Name",
+          details: "Project From Dicoding Android Developer Expert",
+        },
+        {
+          id: 2,
+          title: "Services",
+          details: "Android jetpack compose development with database",
+        },
+        {
+          id: 3,
+          title: "Website",
+          details: "https://github.com/XenchinRyu7/BallVerse",
+        },
+        {
+          id: 4,
+          title: "Phone",
+          details: "N/A",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails:
+        "The goal of this project is to develop a list of football players and club with details and favorite feature. The app will be developed using Jetpack Compose and Room Database.",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: [
+            "Jetpack Compose",
+            "Kotlin",
+            "Room Database",
+            "Material Design 3",
+          ],
         },
       ],
       ProjectDetailsHeading: "Challenges",
