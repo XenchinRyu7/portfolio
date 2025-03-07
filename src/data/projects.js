@@ -6,11 +6,11 @@ import Traveloop from "../images/projects/traveloop/traveloop.png";
 import CluckNRoll from "../images/projects/clucknroll/clucknroll.png";
 import RuangTenun from "../images/projects/RuangTenun/ruangtenun.png";
 import SkillBridge from "../images/projects/SkillBridge/skillbridge.png";
-import BallVerse from "../images/projects/BallVerse/ballverse.jpg";
-import MubeeGo from "../images/projects/MubeeGo/mubeego.jpg";
-import TodoApp from "../images/projects/TodoApp/todoapp.jpg";
-import HabitTracker from "../images/projects/HabitTracker/habittracker.jpg";
-import CourseScheduler from "../images/projects/CourseScheduler/coursescheduler.jpg";
+import BallVerse from "../images/projects/BallVerse/ballverse.png";
+import MubeeGo from "../images/projects/MubeeGo/mubeego.png";
+import TodoApp from "../images/projects/TodoApp/todoapp.png";
+import HabitTracker from "../images/projects/HabitTracker/habittracker.png";
+import CourseScheduler from "../images/projects/CourseScheduler/coursescheduler.png";
 
 export const projectsData = [
   {

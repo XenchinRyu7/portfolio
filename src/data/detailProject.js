@@ -28,30 +28,21 @@ import SkillBridge from "../images/projects/SkillBridge/skillbridge.png";
 import SkillBridge1 from "../images/projects/SkillBridge/skillbridge1.png";
 import SkillBridge2 from "../images/projects/SkillBridge/skillbridge2.png";
 
-import BallVerse from "../images/projects/BallVerse/ballverse.jpg";
-import BallVerse1 from "../images/projects/BallVerse/ballverse1.jpg";
-import BallVerse2 from "../images/projects/BallVerse/ballverse2.jpg";
-import BallVerse3 from "../images/projects/BallVerse/ballverse3.jpg";
-import BallVerse4 from "../images/projects/BallVerse/ballverse4.jpg";
+import BallVerse from "../images/projects/BallVerse/ballverse.png";
+import BallVerse1 from "../images/projects/BallVerse/ballverse1.png";
+import BallVerse2 from "../images/projects/BallVerse/ballverse3.jpg";
 
-import MubeeGo from "../images/projects/MubeeGo/mubeego.jpg";
-import MubeeGo1 from "../images/projects/MubeeGo/mubeego1.jpg";
-import MubeeGo2 from "../images/projects/MubeeGo/mubeego2.jpg";
-import MubeeGo3 from "../images/projects/MubeeGo/mubeego3.jpg";
+import MubeeGo from "../images/projects/MubeeGo/mubeego.png";
+import MubeeGo1 from "../images/projects/MubeeGo/mubeego1.png";
 
-import TodoApp from "../images/projects/TodoApp/todoapp.jpg";
-import TodoApp1 from "../images/projects/TodoApp/todoapp1.jpg";
-import TodoApp2 from "../images/projects/TodoApp/todoapp2.jpg";
+import TodoApp from "../images/projects/TodoApp/todoapp.png";
+import TodoApp1 from "../images/projects/TodoApp/todoapp1.png";
 
-import HabitTracker from "../images/projects/HabitTracker/habittracker.jpg";
-import HabitTracker1 from "../images/projects/HabitTracker/habittracker1.jpg";
-import HabitTracker2 from "../images/projects/HabitTracker/habittracker2.jpg";
-import HabitTracker3 from "../images/projects/HabitTracker/habittracker3.jpg";
+import HabitTracker from "../images/projects/HabitTracker/habittracker.png";
+import HabitTracker1 from "../images/projects/HabitTracker/habittracker1.png";
 
-import CourseScheduler from "../images/projects/CourseScheduler/coursescheduler.jpg";
-import CourseScheduler1 from "../images/projects/CourseScheduler/coursescheduler1.jpg";
-import CourseScheduler2 from "../images/projects/CourseScheduler/coursescheduler2.jpg";
-import CourseScheduler3 from "../images/projects/CourseScheduler/coursescheduler3.jpg";
+import CourseScheduler from "../images/projects/CourseScheduler/coursescheduler.png";
+import CourseScheduler1 from "../images/projects/CourseScheduler/coursescheduler1.png";
 
 import {
   FiFacebook,
@@ -1291,17 +1282,7 @@ export const detailProject = [
         id: 2,
         title: "MubeeGo Sidebar",
         img: MubeeGo1,
-      },
-      {
-        id: 3,
-        title: "MubeeGo Detail",
-        img: MubeeGo2,
-      },
-      {
-        id: 4,
-        title: "MubeeGO Favorite",
-        img: MubeeGo3,
-      },
+      }
     ],
     ProjectInfo: {
       ClientHeading: "About the Client",
@@ -1441,11 +1422,6 @@ export const detailProject = [
         title: "Todo App Add Task",
         img: TodoApp1,
       },
-      {
-        id: 3,
-        title: "Todo App Settings",
-        img: TodoApp2,
-      },
     ],
     ProjectInfo: {
       ClientHeading: "About the Client",
@@ -1578,17 +1554,7 @@ export const detailProject = [
         id: 2,
         title: "Habit Tracker Random Habit",
         img: HabitTracker1,
-      },
-      {
-        id: 3,
-        title: "Habit Tracker Add Habit",
-        img: HabitTracker2,
-      },
-      {
-        id: 2,
-        title: "Habit Tracker Settings",
-        img: HabitTracker3,
-      },
+      }
     ],
     ProjectInfo: {
       ClientHeading: "About the Client",
@@ -1721,17 +1687,7 @@ export const detailProject = [
         id: 2,
         title: "Course Scheduler Add course",
         img: CourseScheduler1,
-      },
-      {
-        id: 3,
-        title: "Course Scheduler List Course",
-        img: CourseScheduler2,
-      },
-      {
-        id: 4,
-        title: "Course Scheduler Settings",
-        img: CourseScheduler3,
-      },
+      }
     ],
     ProjectInfo: {
       ClientHeading: "About the Client",
@@ -1867,16 +1823,6 @@ export const detailProject = [
       },
       {
         id: 3,
-        title: "BallVerse - Clubs UI",
-        img: BallVerse3,
-      },
-      {
-        id: 4,
-        title: "BallVerse - Profile UI",
-        img: BallVerse4,
-      },
-      {
-        id: 5,
         title: "BallVerse - Profile UI",
         img: BallVerse1,
       },

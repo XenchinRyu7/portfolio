@@ -10,7 +10,7 @@ const ProjectGallery = ({ projectImages }) => {
           <div className="mb-10 sm:mb-0" key={project.id}>
             <img
               src={project.img}
-              className="rounded-xl cursor-pointer shadow-lg sm:shadow-none w-full h-96 object-cover"
+              className="rounded-xl cursor-pointer shadow-lg sm:shadow-none w-full h-[500px] object-cover"
               alt={project.title}
               key={project.id}
             />
