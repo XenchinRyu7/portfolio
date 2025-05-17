@@ -3,9 +3,11 @@
  * Powered by: @realstoman
 */
 
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+@import "tailwindcss";
 
 body {
 	font-family: 'GeneralSans-Variable';
@@ -236,4 +238,12 @@ body {
 	100% {
 		opacity: 0.5;
 	}
+}
+
+/* Project card style */
+.project-card {
+	height: 100%;
+	min-height: 480px; /* Atur sesuai kebutuhan desain */
+	display: flex;
+	flex-direction: column;
 }
