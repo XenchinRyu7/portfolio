@@ -37,8 +37,17 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
+
+      Remove the duplicate or unused public/index.html file after migration to Vite.
     -->
-  <script src="https://plugin-one-ai-assistant.vercel.app/plugin.js" data-api-key="fb23c79010dd71edd8cd711bd1d6b20617ddfa278e2a05f1f88f6f53fd8b6484" data-client-name="Saeful Rohman" data-position="left"></script>
+    <script>
+      window.tawkConfig = {
+          apiKey: '0d27f4b3f75dac235ddc69244b604e3e',
+          clientName: 'Saeful Rohman',
+          position: 'left'
+      };
+  </script>
+  <script src="https://react-assistant-nine.vercel.app/widget_loader.js"></script>
 
 </body>
 
