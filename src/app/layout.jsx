@@ -4,11 +4,12 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'My Portfolio',
+  title: 'Saeful Rohman - Portfolio',
   description: 'My professional portfolio showcasing my work and skills',
   viewport: 'width=device-width, initial-scale=1.0',
   icons: {
-    icon: '/favicon.ico',
+    icon: '/favicon.svg',
+    shortcut: '/favicon.ico',
   },
 }
 

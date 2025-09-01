@@ -1,0 +1,1 @@
+import{j as r}from"./index-D1FipPYK.js";import{P as s,a as o}from"./ProjectsGrid-1eTr-ILg.js";const a=()=>r.jsx(s,{children:r.jsx("div",{className:"container mx-auto",children:r.jsx(o,{})})});export{a as default};
