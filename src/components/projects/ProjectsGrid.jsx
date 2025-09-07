@@ -7,6 +7,8 @@ import ProjectsFilter from "./ProjectsFilter";
 const ProjectsGrid = () => {
   const {
     projects,
+    isLoading,
+    error,
     searchProject,
     setSearchProject,
     searchProjectsByTitle,
@@ -97,6 +99,21 @@ const ProjectsGrid = () => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
+        {isLoading && (
+          <div className="col-span-3 text-center text-ternary-dark dark:text-ternary-light">
+            Loading projects...
+          </div>
+        )}
+        {!isLoading && error && (
+          <div className="col-span-3 text-center text-red-500">
+            {error}
+          </div>
+        )}
+        {!isLoading && !error && projects.length === 0 && (
+          <div className="col-span-3 text-center text-ternary-dark dark:text-ternary-light">
+            No projects found
+          </div>
+        )}
         {selectProject
           ? selectProjectsByCategory.map((project) => (
               <ProjectSingle

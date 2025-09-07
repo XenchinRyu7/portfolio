@@ -1,10 +1,68 @@
-import { useState, createContext } from "react";
-import { projectsData } from "../data/projects";
+import { useState, useEffect, createContext } from "react";
 
 export const ProjectsContext = createContext();
 
 export const ProjectsProvider = (props) => {
-  const [projects, setProjects] = useState(projectsData);
+  const [projects, setProjects] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [rawProjects, setRawProjects] = useState([]);
+
+  useEffect(() => {
+    let isMounted = true;
+    const controller = new AbortController();
+
+    const loadProjects = async () => {
+      try {
+        setIsLoading(true);
+        setError("");
+        const response = await fetch("/api/projects", { signal: controller.signal });
+        if (!response.ok) {
+          throw new Error(`Request failed: ${response.status}`);
+        }
+        const json = await response.json();
+        const apiProjects = Array.isArray(json?.data) ? json.data : [];
+
+        // Map API shape to UI needs
+        const mapped = apiProjects.map((item, index) => {
+          // Derive a compatible category for existing filters
+          const tags = Array.isArray(item?.tags) ? item.tags : [];
+          const lowerTags = tags.map((t) => String(t).toLowerCase());
+          let category = "Other";
+          if (lowerTags.includes("web")) category = "Web Application";
+          else if (lowerTags.includes("android") || lowerTags.includes("mobile")) category = "Mobile Application";
+          else if (lowerTags.includes("desktop")) category = "Desktop Application";
+
+          const imageUrl = item?.images?.[0]?.url || "";
+
+          return {
+            id: item.id || String(index + 1),
+            title: item.title || "Untitled",
+            category,
+            img: imageUrl,
+          };
+        });
+
+        if (isMounted) {
+          setRawProjects(apiProjects);
+          setProjects(mapped);
+        }
+      } catch (err) {
+        if (isMounted) {
+          setError(err?.message || "Failed to load projects");
+        }
+      } finally {
+        if (isMounted) setIsLoading(false);
+      }
+    };
+
+    loadProjects();
+
+    return () => {
+      isMounted = false;
+      controller.abort();
+    };
+  }, []);
   const [searchProject, setSearchProject] = useState("");
   const [selectProject, setSelectProject] = useState("");
 
@@ -30,6 +88,9 @@ export const ProjectsProvider = (props) => {
       value={{
         projects,
         setProjects,
+        rawProjects,
+        isLoading,
+        error,
         searchProject,
         setSearchProject,
         searchProjectsByTitle,
