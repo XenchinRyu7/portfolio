@@ -16,7 +16,11 @@ export const ProjectsProvider = (props) => {
       try {
         setIsLoading(true);
         setError("");
-        const response = await fetch("/api/projects", { signal: controller.signal });
+        // Use full URL in production, proxy in development
+        const apiUrl = import.meta.env.PROD 
+          ? 'https://saefulrdevs-portfolio-api.vercel.app/api/projects'
+          : '/api/projects';
+        const response = await fetch(apiUrl, { signal: controller.signal });
         if (!response.ok) {
           throw new Error(`Request failed: ${response.status}`);
         }
