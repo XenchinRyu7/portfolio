@@ -1,0 +1,1 @@
+import{j as r,P as s}from"./index-DR8837ws.js";import{P as o}from"./ProjectsGrid-Dhy2osux.js";const a=()=>r.jsx(s,{children:r.jsx("div",{className:"container mx-auto",children:r.jsx(o,{})})});export{a as default};
